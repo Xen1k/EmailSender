@@ -1,0 +1,30 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.data-input-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.send-button {
+    width: 100px;
+    align-self: left;
+}
+
+.input-header {
+    font-weight: bold;
+    font-size: 18px;
+}
